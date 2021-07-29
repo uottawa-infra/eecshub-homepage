@@ -1,0 +1,69 @@
+#home {
+    margin-top: 32px
+}
+
+.login-container {
+    margin-top: 32px;
+}
+
+#login-button {
+    margin-top: 32px;
+}
+#operated-by {
+    margin-top: 8px;
+    color: darkgrey;
+}
+
+#operated-by a {
+    color:grey;
+    font-weight: bold;
+}
+
+.details {
+    margin-top: 32px;
+}
+
+.details-welcome {
+    color: black;
+}
+
+.details-logos img {
+    margin: 12px;
+    text-align: right;
+}
+
+.details p {
+    color: grey;
+}
+
+.announcements {
+    margin-top: 10px;
+}
+
+.announcements > div {
+    margin-top: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border: 2px dotted orange;
+}
+
+.questions {
+    margin-top: 12px;
+}
+
+.questions > div {
+    margin-top: 32px;
+    padding-bottom: 32px;
+    border-bottom: 2px lightgrey dotted;
+}
+
+.footer {
+    padding-top: 64px;
+    text-align: center;
+    color: darkgrey;
+}
+
+.footer a {
+    color: darkgrey;
+    text-decoration: underline;
+}
