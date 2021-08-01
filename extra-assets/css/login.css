@@ -1,4 +1,70 @@
+      IMG.header {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
 
+        html {
+            height:100%;
+            box-sizing: border-box;
+        }
+
+        body {
+            height:100%;
+            background-color: #fff;
+            color: #333;
+            font: 1.2em / 1.5 Helvetica Neue, Helvetica, Arial, sans-serif;
+            padding: 0;
+            margin: 0;
+        }
+
+        * {
+            box-sizing: inherit;
+        }
+
+        section {
+            height: 100%
+        }
+
+        .wrapper {
+            min-height: 100%;
+            display: grid;
+            grid-template-rows: auto 1fr auto;
+        }
+
+        .page-header {
+            background-color: rgb(59,55,52);
+            color: #fff;
+            padding: 8px;
+            align-content: center;
+        }
+      
+        .page-footer {
+            background-color: rgb(128,116,108);
+            color: #fff;
+            padding: 8px;
+        }
+
+        .page-body {
+            padding: 20px;
+        }
+
+        .preview {
+            height: 400px;
+            overflow: auto;
+        }
+      
+      .page-footer {
+            padding-top: 16px;
+            text-align: center;
+            color: darkgrey;
+        font-size: 12px;      
+      }
+
+    .page-footer a {
+        color: darkgrey;
+        text-decoration: underline;
+        font-size: 12px;  
+    }
 
 
 
