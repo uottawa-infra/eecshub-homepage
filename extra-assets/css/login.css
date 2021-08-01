@@ -67,11 +67,14 @@
     }
 
 
+.info {align-content: center; width: 500px;}
+
+
 
 
 
 #home {
-    margin-top: 32px
+    margin-top: 0px
 }
 
 .login-container {
